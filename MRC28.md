@@ -67,10 +67,13 @@ Weights: 14
 **3. User test**<br>
 Weights: 4
 
-**4. User feedback**<br>
+**4. Unit tests**<br>
+Weights: 6
+
+**5. User feedback**<br>
 Weights: 4
 
-**TOTAL WEIGHTS: 30**
+**TOTAL WEIGHTS: 36**
 
 ### 8. Existing weights
 
@@ -89,10 +92,13 @@ Duration: 2 weeks
 **3. User test**<br>
 Duration: 1 week
 
+**4. Unit tests**<br>
+Duration: 1 week
+
 **4. User feedback**<br>
 Duration: 1 week
 
-**TOTAL TIME TO COMPLETE: 5 WEEKS**
+**TOTAL TIME TO COMPLETE: 6 WEEKS**
 
 ### 10. Deliverables
 
