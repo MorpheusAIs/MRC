@@ -1,5 +1,15 @@
 ## Morpheus MRC-26: Enhancing Morpheus Web3 Frontend & User Flow: Increasing Wallet Integration and Accessibility
 
+---
+
+## Status
+**April 1, 2024: PENDING**
+
+**Comments:**  
+Assuming there is proof on how keys will be protected within Wallet Connect on the local install, this is worth pursuing as soon as there is a specific and realistic weight proposal included.  This is moving into Pending  and can move into In Progress as soon as there is a definitive bid for cost.  Thank you for a great proposal!
+
+---
+
 ### 1. Problem definition
 
 In the context of the Morpheus Lite client, an issue is identified in the fragmented nature of wallet integration. 
@@ -58,19 +68,24 @@ Implementation of this improvement necessitates a transition to a new frontend t
 
 ### 7. New weights requested
 
-**1. Finalizing UI / UX proposal**<br>
+**1. Finalizing UI / UX proposal**
+
 Weights: 8
 
-**2. Implementing wallet aggregation and adapting the new design**<br>
+**2. Implementing wallet aggregation and adapting the new design**
+
 Weights: 14
 
-**3. User test**<br>
+**3. User test**
+
 Weights: 4
 
-**4. Unit tests**<br>
+**4. Unit tests**
+
 Weights: 6
 
-**5. User feedback**<br>
+**5. User feedback**
+
 Weights: 4
 
 **TOTAL WEIGHTS: 36**
@@ -83,19 +98,24 @@ At present, there are no discernible connections between this proposition and an
 
 The time required to complete this proposition is subject to various factors, including the composition and capabilities of the contributing team, as well as other pertinent considerations. As part of the implementation process, it would be necessary to create a detailed timeline outlining all the requisite features and tasks. The timeline would take into account factors such as resource availability, technical complexity, and potential dependencies on external factors or third-party integrations. By carefully assessing these variables, the timeline can be tailored to suit the specific requirements and objectives of the project, ensuring efficient and timely delivery of the proposed enhancements.
 
-**1. Finalizing UI / UX proposal**<br>
+**1. Finalizing UI / UX proposal**
+
 Duration: 1 week
 
-**2. Implementing wallet aggregation and adapting the new design**<br>
+**2. Implementing wallet aggregation and adapting the new design**
+
 Duration: 2 weeks
 
-**3. User test**<br>
+**3. User test**
+
 Duration: 1 week
 
-**4. Unit tests**<br>
+**4. Unit tests**
+
 Duration: 1 week
 
-**4. User feedback**<br>
+**4. User feedback**
+
 Duration: 1 week
 
 **TOTAL TIME TO COMPLETE: 6 WEEKS**
