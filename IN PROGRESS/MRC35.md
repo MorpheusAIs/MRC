@@ -38,3 +38,15 @@ Teknium is a self taught AI expert on data-synthesis, post-training, and evaluat
 
 ## Status
 In Discussion
+
+## Metadata
+---
+id: 35
+title: Smart Function Callers as the Basis of Early Smart Agents
+summary: Morph-Caller is a state-of-the-art language model designed to perform function calling using a structured schema. It leverages a sophisticated system to parse and execute function calls, providing users with the ability to interact with the model in a more dynamic and utilitarian manner. The model differentiates itself by both excelling at function calling and also being unrestrained from model censorship.
+status: In Discussion
+discussion_url: https://discord.com/channels/1151741790408429580/1215401416659832842/1238871504683401417
+authors: ["Teknium", "karan4d"]
+contact: 
+keywords: ["smart agents"]
+---
