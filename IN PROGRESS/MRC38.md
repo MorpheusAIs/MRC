@@ -1,5 +1,5 @@
-# Title: MRC 38 "Staking MOR for Code Contributors"
-## Sub Title: The Time & Dilution Based Power Factor Method 
+# MRC 38: Staking MOR for Code Contributors
+## The Time & Dilution Based Power Factor Method 
 
 ### Link for Discussion on Discord:
 https://discord.com/channels/1151741790408429580/1251994932688719922
@@ -24,7 +24,7 @@ All contributors should have equal access to build MOR by staking their weights.
 
 Fair Stake allows all contributors to be rewarded if they agree not to claim tokens for a set period of time. When instituted, contributors will have the ability to indicate the length of Fair Stake as part of a bid for weights.
 
-Contributors who stake for long periods of time will see a better return on their weights.  See below for a description of economic mechanisms.
+Contributors who stake for long periods of time will see a better return on their weights. See below for a description of economic mechanisms.
 
 ## Rationale: Time Equals Alignment
 Those Contributors of Code should have a way to express their committment to the project. Time is the logical way to express this alignment with the project.

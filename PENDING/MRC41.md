@@ -1,5 +1,5 @@
-# Title: MRC 41 "MOR Staking For Builders"
-## Sub Title: "The Time & Dilution Based Power Factor Method For Calculating Proportionality of Emissions"
+# MRC 41: MOR Staking For Builders
+## The Time & Dilution Based Power Factor Method For Calculating Proportionality of Emissions
 
 ### Link for Discussion on Discord: 
 https://discord.com/channels/1151741790408429580/1251995756332843189

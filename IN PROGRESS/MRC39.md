@@ -1,5 +1,5 @@
-# Title: MRC 39 "Staking MOR for Capital Providers"
-## Sub Title: The Time & Dilution Based Power Factor Method 
+# MRC 39: Staking MOR for Capital Providers
+## The Time & Dilution Based Power Factor Method 
 
 ### Link for Discord: 
 https://discord.com/channels/1151741790408429580/1251995170178596966

@@ -1,5 +1,5 @@
-# Title: MRC 40 "Staking MOR For Compute Providers"
-## Sub Title: "The Time & Dilution Based Power Factor Method For Calculating Reputation Rank"
+# MRC 40: Staking MOR For Compute Providers
+## The Time & Dilution Based Power Factor Method For Calculating Reputation Rank
 
 ### Link for Discussion on Discord: 
 https://discord.com/channels/1151741790408429580/1251995364693774336
