@@ -3,22 +3,22 @@
 ## Status: In Progress
 
 ## Objective & Proposal:
-As with all Morpheus Contribution types the Morpheus Reference Implementations are designed and intended to move toward a free market approach where MRI maintainers can independently manage Coding weights for their specific MRI.
+As with all Morpheus Contribution types, the Morpheus Reference Implementations are designed and intended to move toward a free market approach where MRI maintainers can independently manage Coding weights for their specific MRI.
 
 ### 1. Create a Multisig address for each of the 10 MRIs.
-### 2. Assign exceess weights for each MRI to its Multisig address.
+### 2. Assign excess weights for each MRI to its Multisig address.
 ### 3. Assign all 100 Million weights between the 10 MRIs now.
 
 ## History & Context
 - Morpheus began with a single community run Multisig that assigned weights each month towards the addresses as selected by each Maintainer. 
-- This system bootstrapped the Code Contributor catagory to its first 300 addresses based on Contributions of Code to 10 MRIs.
+- This system bootstrapped the Code Contributor category to its first 300 addresses based on Contributions of Code to 10 MRIs.
 
 ## 3 Key Challenges with Previous Weights Management System:
 
 ### Race Condition Created For Weights Assignment
-- The first game theory issue that emerged has been that the Coding Weights for each Maintainer effectively ALL have to be assigned every month.
+- The first game theory issue that emerged has been that with regards to the Coding Weights for each Maintainer, effectively ALL have to be assigned every month.
 - As not assigning the weights would disproportionately disadvantage the Maintainer's MRI due to the dilution from other MRIs assigning weights that month.
-- This has lead to a race condition and added a lot of overhead as Maintainers have to try and perfectly balance requests for weights every month. 
+- This has led to a race condition and added a lot of overhead as Maintainers have to try and perfectly balance requests for weights every month. 
 - Instead of just assigning the weights they need to get Coding work done that month.
 
 ### Complexity In Accounting
@@ -29,14 +29,14 @@ As with all Morpheus Contribution types the Morpheus Reference Implementations a
 - Lacking any MOR to distribute the Maintainers have had to only work with Coders able to accept weights for their Contributions.
 - This has narrowed the number Code Contributors that can participate in providing Code to improve the Morpheus Reference Implementations.
 
-## Advantages To This New Simplified Weights System
-### 1. Maintainers can "save" weights for that are unassigned for future use in their MRI specific Multisig. 
+## Advantages Of This New Simplified Weights System
+### 1. Maintainers can "save" weights that are unassigned for future use in their MRI specific Multisig. 
 ### 2. Weights assigned to the MRI specific multisig will gain MOR emissions over time. Creating an MRI specific pool of MOR token resources of the Maintainer to use.
 ### 3. Accounting can be simplified as each MRI will have a static set of weights to assign. 
 
 ## MRI Multisig Details
-- 10 Multisigs created, one for each of the 10 MRIs that all require 2 of 3 signatures for approval to send MOR from their address.
+- 10 Multisigs created, one for each of the 10 MRIs, and all require 2 of 3 signatures for approval to send MOR from their address.
 - This creates the basic structure that can be updated over time as MRI maintainers change and new signers assigned.
-- Community multisig still updates weights / addresses in the Smart Contract once per month based on Maintainer asssignments.
-- Future version of the Morpheus Smart Contracts will need to allow for individual MRI multisigs to direct MOR distribution (likely via 721 style Contract).
+- Community multisig still updates weights / addresses in the Smart Contract once per month based on Maintainer assignments.
+- Future versions of the Morpheus Smart Contracts will need to allow for individual MRI multisigs to direct MOR distribution (likely via 721 style Contract).
 
