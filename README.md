@@ -36,7 +36,7 @@ See the details on all of the MRIs [here](https://github.com/MorpheusAIs/Docs/bl
 
 ## MRC 45: Morpheus stETH Referral System
 - Status: **IN PROGRESS** https://discord.com/channels/1151741790408429580/1283848717392154737
-- Link: https://github.com/MorpheusAIs/MRC/blob/main/MRC45.md
+- Link: https://github.com/MorpheusAIs/MRC/blob/main/IN%20PROGRESS/MRC45.md
 
 ## MRC 44: Quarterly Withdraws of Protection Fund MOR
 - Status: **IN PROGRESS** https://discord.com/channels/1151741790408429580/1275559742537994312
