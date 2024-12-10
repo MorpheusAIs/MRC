@@ -1,4 +1,4 @@
-# MRC47 Distribution of Historical Builder Reward MOR Tokens Stored in the Smart Contract
+# MRC47: Distribution of Historical Builder Reward MOR Tokens Stored in the Smart Contract
 ## Authors: Smart Agents
 
 ## Context

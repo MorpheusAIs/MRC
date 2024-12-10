@@ -1,4 +1,4 @@
-## Morpheus MRC-26: Decentralised Architecture Definition and API specification
+## MRC26: Decentralised Architecture Definition and API specification
 
 ---
 

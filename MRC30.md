@@ -1,4 +1,4 @@
-# Passive PMAs: Portfolio Management Agents for Passive Fund Management
+# MRC30: Passive PMAs. Portfolio Management Agents for Passive Fund Management
 
 ---
 

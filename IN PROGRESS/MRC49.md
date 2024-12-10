@@ -39,7 +39,7 @@ As with all Morpheus Contribution types, the Morpheus Reference Implementations 
 - This creates the basic structure that can be updated over time as MRI maintainers change and new signers assigned.
 
 - Community multisig still updates weights / addresses in the Smart Contract once per month based on Maintainer asssignments.
-- List of updated [MRI names and weight amounts can be found here.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/%20Weight%20Allocation%20by%20MRI.md
+- List of updated [MRI names and weight amounts can be found here.](https://github.com/MorpheusAIs/Docs/blob/main/!KEYDOCS%20README%20FIRST!/Code%20Providers/%20Weight%20Allocation%20by%20MRI.md)
 
 
 ## Future Upgrades
