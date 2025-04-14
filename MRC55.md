@@ -1,4 +1,4 @@
-# MRC 55: Morpheus User Personas For Builders, Compute, Capital & There Effects on V2 Designs
+# MRC 55: Morpheus User Personas For Builders, Compute, Capital & Their Effects on V2 Designs
 
 ## Premise: Who is the primary persona Morpheus is serving with Builders, Compute & Capital? 
 And what data do we have from the first 90 days in the real world of the Builder rewards being live.
