@@ -1,9 +1,9 @@
 # MRC 58: Specification for the Agent Registry Smart Contract
 
 ## Introduction: Purpose and History
-Originally the Agent Registry was included in the Morpheus / Lumerin Router along side the model registry. 
-Due to the added complexity and the decision was made to set the Agent Registry as a stand along Smart Contract.
-The follow are required, optional, and calculated fields for the design of the Smart Contract.
+Originally the Agent Registry was included in the Morpheus / Lumerin Router alongside the model registry. 
+Due to the added complexity, the decision was made to set the Agent Registry as a standalone Smart Contract.
+The following are required, optional, and calculated fields for the design of the Smart Contract.
 
 | Field                                    | Required?  | Notes (why / any nuance)                                                                                           |
 |------------------------------------------|------------|--------------------------------------------------------------------------------------------------------------------|
