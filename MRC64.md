@@ -76,4 +76,5 @@ As mentioned above "the next evolution of AI will be defined by agents that act 
 In order to match and settle their intents there needs to be an Intent Layer that is, "programmable, verifiable tasks submitted by users or agents to request actions from any registered service."
 
 While only covered briefly in this whitepaper one of the key areas of the MVMs development will be the intent settlement layer for the Morpheus nodes. This is discussed in much greater detail in the V2 of the Morpheus yellow paper.
+
 ---
