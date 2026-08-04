@@ -10,6 +10,11 @@ See the details on all of the MRIs [here](https://github.com/MorpheusAIs/Docs/bl
 
 ## List of All MRCs:
 
+## MRC 94: Capital MOR Mint / Claim Destination — Arbitrum or Base (Preferred Dual Path)
+
+* Status: **Under Discussion**
+* Github: [https://github.com/MorpheusAIs/MRC/blob/main/MRC94.md](https://github.com/MorpheusAIs/MRC/blob/main/MRC94.md)
+
 ## MRC 90: List of Morpheus AI / Agent Integrations
 - Status: **Under Discussion** https://discord.com/channels/1151741790408429580/1426221152711217293
 - Github: https://github.com/MorpheusAIs/MRC/blob/main/MRC90.md
