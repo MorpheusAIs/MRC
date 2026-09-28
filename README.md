@@ -10,6 +10,10 @@ See the details on all of the MRIs [here](https://github.com/MorpheusAIs/Docs/bl
 
 ## List of All MRCs:
 
+## MRC 91: Dynamic Claim Difficulty Mechanism for Inference Providers & Beyond
+- Status: **Under Discussion** https://discord.com/channels/1151741790408429580/1554172042171912282
+- Github: https://github.com/MorpheusAIs/MRC/blob/main/MRC91.md
+
 ## MRC 90: List of Morpheus AI / Agent Integrations
 - Status: **Under Discussion** https://discord.com/channels/1151741790408429580/1426221152711217293
 - Github: https://github.com/MorpheusAIs/MRC/blob/main/MRC90.md
