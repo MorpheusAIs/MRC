@@ -33,8 +33,33 @@ The same mechanism should be applied to Capital MOR claims. With 90 days we saw 
 
 Benefits of this design. Everything is balanced toward real demand of MOR either from yield or from Inference and supply emissions is a reward that can’t be gamed as it produces less than it costs to no one will make MOR by burning / locking 1 MOR to earn 0.5 MOR.
 
-## Implementation:
+## Implementation Details:
 Review smart contacts for the parameter that will need to read MOR claims over time to calculate the emissions rates.
+
+### Where the static lock lives today
+
+### Capital (Ethereum L1): DepositPool.sol — owner-set cooldowns (claimLockPeriodAfterStake, claimLockPeriodAfterClaim, withdrawLockPeriodAfterStake) plus per-user claimLockEnd. This is the "90 days too long / 7 days too short" capital lock.
+Emissions: RewardPool.getPeriodRewards() is a fixed curve. DistributorV2.distributeRewards() is the "read MOR over time" hook.
+Inference (Base): Marketplace.bidFee (5%, inactive), ProviderRegistry stake, SessionRouter._claimForProvider() cap — the 1-year provider lock.
+Locked decisions (David, 2026-09-28)
+
+### Anchor = bidFee-only (cumulative 5% bidFee burn/lock volume per week — non-circular).
+Whole mechanism co-located on Base. Inference is fully local; Capital (L1) gets a single L2→L1 push of the computed floor + scalar over LayerZero. No external keeper trust, no desync.
+The canonical control law (§4.3)
+
+### Target = buyBaseline × 0.5 (from MRC-91's own "1,000 bought / 500 earned" logic; the sensitivity sweep proves 0.5 is the flips-minimizing point: ~12 flips vs 31–57 for neighbors).
+Imbalance = (claimsCompleted − target) / target, fed through an accrued-imbalance EMA (beta 0.30) + hysteresis (enter ±15%, exit ±6%) + EMA (alpha 0.10) + clamps (±50%/epoch) + min/max lock (7–365 d).
+Emission scalar is a separate law, strictly ≤ 1.0, floor 0.5 — never mints more than demand.
+Simulation evidence (§7) — 5 seeds × 200 weeks, one-epoch lag, wash-attack, sensitivity sweep, joint correlated shock:
+
+### Lock moves sub-day per week; 0 floor/ceiling hits; scalar always in [0.5, 1.0].
+Wash spikes don't destabilize. Joint shock: total issued/demand max = 1.000 (scarcity bias holds), coders never starved.
+Low-demand: lock settles at ~15 d (EMA fixed point), scalar back to 1.0 — no trap.
+Extensions
+
+### Coders: 50% of inference-demand direction, paid via CodersTreasury + Sablier, decoupled scalar.
+Builders: builderSubnetReward = subnetStakeShare × inferenceBucketRewards × builderScalar; P3 staged cuts become the scalar initialization.
+Next step (when you say go): reference DynamicClaimDifficulty engine on Base + unit tests, local-only mode 600, then the SOP-018 Grok audit on the code diffs.
 
 ## Conclusions:
 We can finally move to a self adjusting system of MOR emissions that balances across Inference, Capital, Builders, and Coders.
